@@ -1,0 +1,2 @@
+platform :ios, '7.0'
+pod 'GoldenFleeceCustom', :git => 'https://github.com/falisd/gf.git', :tag => 'v1.2.6'

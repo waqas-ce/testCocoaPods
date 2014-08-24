@@ -1,0 +1,917 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1317972A198FE577002DE2C8 /* AddressBookInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179704198FE577002DE2C8 /* AddressBookInfo.h */; };
+		1317972B198FE577002DE2C8 /* AddressBookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179705198FE577002DE2C8 /* AddressBookInfo.m */; };
+		1317972C198FE577002DE2C8 /* ContactEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179706198FE577002DE2C8 /* ContactEmail.h */; };
+		1317972D198FE577002DE2C8 /* ContactEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179707198FE577002DE2C8 /* ContactEmail.m */; };
+		1317972E198FE577002DE2C8 /* ContactIM.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179708198FE577002DE2C8 /* ContactIM.h */; };
+		1317972F198FE577002DE2C8 /* ContactIM.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179709198FE577002DE2C8 /* ContactIM.m */; };
+		13179730198FE577002DE2C8 /* ContactInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1317970A198FE577002DE2C8 /* ContactInfo.h */; };
+		13179731198FE577002DE2C8 /* ContactInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317970B198FE577002DE2C8 /* ContactInfo.m */; };
+		13179732198FE577002DE2C8 /* ContactName.h in Headers */ = {isa = PBXBuildFile; fileRef = 1317970C198FE577002DE2C8 /* ContactName.h */; };
+		13179733198FE577002DE2C8 /* ContactName.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317970D198FE577002DE2C8 /* ContactName.m */; };
+		13179734198FE577002DE2C8 /* ContactNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 1317970E198FE577002DE2C8 /* ContactNumber.h */; };
+		13179735198FE577002DE2C8 /* ContactNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317970F198FE577002DE2C8 /* ContactNumber.m */; };
+		13179736198FE577002DE2C8 /* ContactOrganization.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179710198FE577002DE2C8 /* ContactOrganization.h */; };
+		13179737198FE577002DE2C8 /* ContactOrganization.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179711198FE577002DE2C8 /* ContactOrganization.m */; };
+		13179738198FE577002DE2C8 /* ContactSocialProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179712198FE577002DE2C8 /* ContactSocialProfile.h */; };
+		13179739198FE577002DE2C8 /* ContactSocialProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179713198FE577002DE2C8 /* ContactSocialProfile.m */; };
+		1317973A198FE577002DE2C8 /* ContactSyncRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179714198FE577002DE2C8 /* ContactSyncRequest.h */; };
+		1317973B198FE577002DE2C8 /* ContactSyncRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179715198FE577002DE2C8 /* ContactSyncRequest.m */; };
+		1317973C198FE577002DE2C8 /* DeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179716198FE577002DE2C8 /* DeviceInfo.h */; };
+		1317973D198FE577002DE2C8 /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179717198FE577002DE2C8 /* DeviceInfo.m */; };
+		1317973E198FE577002DE2C8 /* FoomoContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179718198FE577002DE2C8 /* FoomoContact.h */; };
+		1317973F198FE577002DE2C8 /* FoomoContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179719198FE577002DE2C8 /* FoomoContact.m */; };
+		13179740198FE577002DE2C8 /* InviteUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1317971A198FE577002DE2C8 /* InviteUser.h */; };
+		13179741198FE577002DE2C8 /* InviteUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317971B198FE577002DE2C8 /* InviteUser.m */; };
+		13179742198FE577002DE2C8 /* RequestWithJidList.h in Headers */ = {isa = PBXBuildFile; fileRef = 1317971C198FE577002DE2C8 /* RequestWithJidList.h */; };
+		13179743198FE577002DE2C8 /* RequestWithJidList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317971D198FE577002DE2C8 /* RequestWithJidList.m */; };
+		13179744198FE577002DE2C8 /* UpdateNumberRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1317971E198FE577002DE2C8 /* UpdateNumberRequest.h */; };
+		13179745198FE577002DE2C8 /* UpdateNumberRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317971F198FE577002DE2C8 /* UpdateNumberRequest.m */; };
+		13179746198FE577002DE2C8 /* UserInfoRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179720198FE577002DE2C8 /* UserInfoRequest.h */; };
+		13179747198FE577002DE2C8 /* UserInfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179721198FE577002DE2C8 /* UserInfoRequest.m */; };
+		13179748198FE577002DE2C8 /* UserLocationInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179722198FE577002DE2C8 /* UserLocationInformation.h */; };
+		13179749198FE577002DE2C8 /* UserLocationInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179723198FE577002DE2C8 /* UserLocationInformation.m */; };
+		1317974A198FE577002DE2C8 /* UserPinInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179724198FE577002DE2C8 /* UserPinInfo.h */; };
+		1317974B198FE577002DE2C8 /* UserPinInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179725198FE577002DE2C8 /* UserPinInfo.m */; };
+		1317974C198FE577002DE2C8 /* UserProfileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179726198FE577002DE2C8 /* UserProfileRequest.h */; };
+		1317974D198FE577002DE2C8 /* UserProfileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179727198FE577002DE2C8 /* UserProfileRequest.m */; };
+		1317974E198FE577002DE2C8 /* UserRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179728198FE577002DE2C8 /* UserRequest.h */; };
+		1317974F198FE577002DE2C8 /* UserRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179729198FE577002DE2C8 /* UserRequest.m */; };
+		13179766198FE593002DE2C8 /* AddressBookInfoResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179750198FE593002DE2C8 /* AddressBookInfoResponse.h */; };
+		13179767198FE593002DE2C8 /* AddressBookInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179751198FE593002DE2C8 /* AddressBookInfoResponse.m */; };
+		13179768198FE593002DE2C8 /* BaseResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179752198FE593002DE2C8 /* BaseResponse.h */; };
+		13179769198FE593002DE2C8 /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179753198FE593002DE2C8 /* BaseResponse.m */; };
+		1317976A198FE593002DE2C8 /* BlockUserResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179754198FE593002DE2C8 /* BlockUserResponse.h */; };
+		1317976B198FE593002DE2C8 /* BlockUserResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179755198FE593002DE2C8 /* BlockUserResponse.m */; };
+		1317976C198FE593002DE2C8 /* DeviceRegistrationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179756198FE593002DE2C8 /* DeviceRegistrationResponse.h */; };
+		1317976D198FE593002DE2C8 /* DeviceRegistrationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179757198FE593002DE2C8 /* DeviceRegistrationResponse.m */; };
+		1317976E198FE593002DE2C8 /* FileUploadResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179758198FE593002DE2C8 /* FileUploadResponse.h */; };
+		1317976F198FE593002DE2C8 /* FileUploadResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179759198FE593002DE2C8 /* FileUploadResponse.m */; };
+		13179770198FE593002DE2C8 /* InviteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1317975A198FE593002DE2C8 /* InviteResponse.h */; };
+		13179771198FE593002DE2C8 /* InviteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317975B198FE593002DE2C8 /* InviteResponse.m */; };
+		13179772198FE593002DE2C8 /* ProfileInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1317975C198FE593002DE2C8 /* ProfileInfo.h */; };
+		13179773198FE593002DE2C8 /* ProfileInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317975D198FE593002DE2C8 /* ProfileInfo.m */; };
+		13179774198FE593002DE2C8 /* TimeSyncResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1317975E198FE593002DE2C8 /* TimeSyncResponse.h */; };
+		13179775198FE593002DE2C8 /* TimeSyncResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1317975F198FE593002DE2C8 /* TimeSyncResponse.m */; };
+		13179776198FE593002DE2C8 /* UserPinResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179760198FE593002DE2C8 /* UserPinResponse.h */; };
+		13179777198FE593002DE2C8 /* UserPinResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179761198FE593002DE2C8 /* UserPinResponse.m */; };
+		13179778198FE593002DE2C8 /* UserProfileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179762198FE593002DE2C8 /* UserProfileResponse.h */; };
+		13179779198FE593002DE2C8 /* UserProfileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179763198FE593002DE2C8 /* UserProfileResponse.m */; };
+		1317977A198FE593002DE2C8 /* UserRegisterResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 13179764198FE593002DE2C8 /* UserRegisterResponse.h */; };
+		1317977B198FE593002DE2C8 /* UserRegisterResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 13179765198FE593002DE2C8 /* UserRegisterResponse.m */; };
+		13179791198FF3A9002DE2C8 /* libPods-AFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13179788198FF2B3002DE2C8 /* libPods-AFNetworking.a */; };
+		13179792198FF3A9002DE2C8 /* libPods-GoldenFleece.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1317978A198FF2B3002DE2C8 /* libPods-GoldenFleece.a */; };
+		13179793198FF3A9002DE2C8 /* libPods-ISO8601DateFormatter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1317978C198FF2B3002DE2C8 /* libPods-ISO8601DateFormatter.a */; };
+		13179794198FF3A9002DE2C8 /* libPods-NSDate+Helper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1317978E198FF2B3002DE2C8 /* libPods-NSDate+Helper.a */; };
+		13179797198FF435002DE2C8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13179796198FF435002DE2C8 /* SystemConfiguration.framework */; };
+		13179799198FF443002DE2C8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13179798198FF443002DE2C8 /* MobileCoreServices.framework */; };
+		131797A0198FF5E3002DE2C8 /* FoomoClientAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1317979F198FF5E3002DE2C8 /* FoomoClientAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		131797B61990CCFD002DE2C8 /* FoomoUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 131797B41990CCFD002DE2C8 /* FoomoUtils.h */; };
+		131797B71990CCFD002DE2C8 /* FoomoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 131797B51990CCFD002DE2C8 /* FoomoUtils.m */; };
+		131797C41990E246002DE2C8 /* SecureKeyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 131797C31990E246002DE2C8 /* SecureKeyManager.h */; };
+		13753EE31990EB6F00665BDC /* SecureKeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13753EE21990EB6F00665BDC /* SecureKeyManager.m */; };
+		13753EE81992025C00665BDC /* UploadInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 13753EE61992025C00665BDC /* UploadInfo.h */; };
+		13753EE91992025C00665BDC /* UploadInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 13753EE71992025C00665BDC /* UploadInfo.m */; };
+		13CEFD59198F5F340085E231 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CEFD58198F5F340085E231 /* Foundation.framework */; };
+		13CEFD67198F5F340085E231 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CEFD66198F5F340085E231 /* XCTest.framework */; };
+		13CEFD68198F5F340085E231 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CEFD58198F5F340085E231 /* Foundation.framework */; };
+		13CEFD6A198F5F340085E231 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CEFD69198F5F340085E231 /* UIKit.framework */; };
+		13CEFD6D198F5F340085E231 /* libFoomoClientAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CEFD55198F5F340085E231 /* libFoomoClientAPI.a */; };
+		13CEFD73198F5F340085E231 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13CEFD71198F5F340085E231 /* InfoPlist.strings */; };
+		13CEFD75198F5F340085E231 /* FoomoClientAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEFD74198F5F340085E231 /* FoomoClientAPITests.m */; };
+		13CEFD80198F5FC20085E231 /* FoomoAPIImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEFD7F198F5FC20085E231 /* FoomoAPIImpl.m */; };
+		13CEFD8A198F638B0085E231 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEFD89198F638B0085E231 /* Request.m */; };
+		13CEFDE3198F67630085E231 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEFDE2198F67630085E231 /* Response.m */; };
+		13CEFDEF198F6C630085E231 /* FoomoResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CEFD86198F63310085E231 /* FoomoResponseHandler.h */; };
+		13CEFDF0198F6C630085E231 /* Response.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CEFDE1198F67630085E231 /* Response.h */; };
+		13CEFDF1198F6C630085E231 /* Request.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CEFD88198F638B0085E231 /* Request.h */; };
+		13CEFDF2198F6C630085E231 /* FoomoAPIImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CEFD7E198F5FC20085E231 /* FoomoAPIImpl.h */; };
+		13CEFDF3198F6C630085E231 /* FoomoAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CEFD81198F60070085E231 /* FoomoAPI.h */; };
+		C72E9E7611C842A692A24C9F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 697DE014AA5243779AC11129 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13179785198FF2B3002DE2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1317977D198FF2B3002DE2C8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0B737490CF5E4D21A039733A;
+			remoteInfo = Pods;
+		};
+		13179787198FF2B3002DE2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1317977D198FF2B3002DE2C8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7ABFEE822E264A8A83155622;
+			remoteInfo = "Pods-AFNetworking";
+		};
+		13179789198FF2B3002DE2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1317977D198FF2B3002DE2C8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 81DCA63A70ED47858C2A7622;
+			remoteInfo = "Pods-GoldenFleece";
+		};
+		1317978B198FF2B3002DE2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1317977D198FF2B3002DE2C8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 31C01C5981D1401AA59E9790;
+			remoteInfo = "Pods-ISO8601DateFormatter";
+		};
+		1317978D198FF2B3002DE2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1317977D198FF2B3002DE2C8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AE1D68F2364C52B08452BE;
+			remoteInfo = "Pods-NSDate+Helper";
+		};
+		13CEFD6B198F5F340085E231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CEFD4D198F5F340085E231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CEFD54198F5F340085E231;
+			remoteInfo = FoomoClientAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		13CEFD53198F5F340085E231 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		13179704198FE577002DE2C8 /* AddressBookInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookInfo.h; sourceTree = "<group>"; };
+		13179705198FE577002DE2C8 /* AddressBookInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookInfo.m; sourceTree = "<group>"; };
+		13179706198FE577002DE2C8 /* ContactEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactEmail.h; sourceTree = "<group>"; };
+		13179707198FE577002DE2C8 /* ContactEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactEmail.m; sourceTree = "<group>"; };
+		13179708198FE577002DE2C8 /* ContactIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactIM.h; sourceTree = "<group>"; };
+		13179709198FE577002DE2C8 /* ContactIM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactIM.m; sourceTree = "<group>"; };
+		1317970A198FE577002DE2C8 /* ContactInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactInfo.h; sourceTree = "<group>"; };
+		1317970B198FE577002DE2C8 /* ContactInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactInfo.m; sourceTree = "<group>"; };
+		1317970C198FE577002DE2C8 /* ContactName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactName.h; sourceTree = "<group>"; };
+		1317970D198FE577002DE2C8 /* ContactName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactName.m; sourceTree = "<group>"; };
+		1317970E198FE577002DE2C8 /* ContactNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactNumber.h; sourceTree = "<group>"; };
+		1317970F198FE577002DE2C8 /* ContactNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactNumber.m; sourceTree = "<group>"; };
+		13179710198FE577002DE2C8 /* ContactOrganization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactOrganization.h; sourceTree = "<group>"; };
+		13179711198FE577002DE2C8 /* ContactOrganization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactOrganization.m; sourceTree = "<group>"; };
+		13179712198FE577002DE2C8 /* ContactSocialProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactSocialProfile.h; sourceTree = "<group>"; };
+		13179713198FE577002DE2C8 /* ContactSocialProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactSocialProfile.m; sourceTree = "<group>"; };
+		13179714198FE577002DE2C8 /* ContactSyncRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactSyncRequest.h; sourceTree = "<group>"; };
+		13179715198FE577002DE2C8 /* ContactSyncRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactSyncRequest.m; sourceTree = "<group>"; };
+		13179716198FE577002DE2C8 /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		13179717198FE577002DE2C8 /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
+		13179718198FE577002DE2C8 /* FoomoContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoomoContact.h; sourceTree = "<group>"; };
+		13179719198FE577002DE2C8 /* FoomoContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoomoContact.m; sourceTree = "<group>"; };
+		1317971A198FE577002DE2C8 /* InviteUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteUser.h; sourceTree = "<group>"; };
+		1317971B198FE577002DE2C8 /* InviteUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InviteUser.m; sourceTree = "<group>"; };
+		1317971C198FE577002DE2C8 /* RequestWithJidList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestWithJidList.h; sourceTree = "<group>"; };
+		1317971D198FE577002DE2C8 /* RequestWithJidList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestWithJidList.m; sourceTree = "<group>"; };
+		1317971E198FE577002DE2C8 /* UpdateNumberRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateNumberRequest.h; sourceTree = "<group>"; };
+		1317971F198FE577002DE2C8 /* UpdateNumberRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateNumberRequest.m; sourceTree = "<group>"; };
+		13179720198FE577002DE2C8 /* UserInfoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoRequest.h; sourceTree = "<group>"; };
+		13179721198FE577002DE2C8 /* UserInfoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoRequest.m; sourceTree = "<group>"; };
+		13179722198FE577002DE2C8 /* UserLocationInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLocationInformation.h; sourceTree = "<group>"; };
+		13179723198FE577002DE2C8 /* UserLocationInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLocationInformation.m; sourceTree = "<group>"; };
+		13179724198FE577002DE2C8 /* UserPinInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPinInfo.h; sourceTree = "<group>"; };
+		13179725198FE577002DE2C8 /* UserPinInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPinInfo.m; sourceTree = "<group>"; };
+		13179726198FE577002DE2C8 /* UserProfileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileRequest.h; sourceTree = "<group>"; };
+		13179727198FE577002DE2C8 /* UserProfileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileRequest.m; sourceTree = "<group>"; };
+		13179728198FE577002DE2C8 /* UserRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRequest.h; sourceTree = "<group>"; };
+		13179729198FE577002DE2C8 /* UserRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRequest.m; sourceTree = "<group>"; };
+		13179750198FE593002DE2C8 /* AddressBookInfoResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookInfoResponse.h; sourceTree = "<group>"; };
+		13179751198FE593002DE2C8 /* AddressBookInfoResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookInfoResponse.m; sourceTree = "<group>"; };
+		13179752198FE593002DE2C8 /* BaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
+		13179753198FE593002DE2C8 /* BaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		13179754198FE593002DE2C8 /* BlockUserResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockUserResponse.h; sourceTree = "<group>"; };
+		13179755198FE593002DE2C8 /* BlockUserResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockUserResponse.m; sourceTree = "<group>"; };
+		13179756198FE593002DE2C8 /* DeviceRegistrationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceRegistrationResponse.h; sourceTree = "<group>"; };
+		13179757198FE593002DE2C8 /* DeviceRegistrationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceRegistrationResponse.m; sourceTree = "<group>"; };
+		13179758198FE593002DE2C8 /* FileUploadResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUploadResponse.h; sourceTree = "<group>"; };
+		13179759198FE593002DE2C8 /* FileUploadResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUploadResponse.m; sourceTree = "<group>"; };
+		1317975A198FE593002DE2C8 /* InviteResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteResponse.h; sourceTree = "<group>"; };
+		1317975B198FE593002DE2C8 /* InviteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InviteResponse.m; sourceTree = "<group>"; };
+		1317975C198FE593002DE2C8 /* ProfileInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileInfo.h; sourceTree = "<group>"; };
+		1317975D198FE593002DE2C8 /* ProfileInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileInfo.m; sourceTree = "<group>"; };
+		1317975E198FE593002DE2C8 /* TimeSyncResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeSyncResponse.h; sourceTree = "<group>"; };
+		1317975F198FE593002DE2C8 /* TimeSyncResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeSyncResponse.m; sourceTree = "<group>"; };
+		13179760198FE593002DE2C8 /* UserPinResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPinResponse.h; sourceTree = "<group>"; };
+		13179761198FE593002DE2C8 /* UserPinResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPinResponse.m; sourceTree = "<group>"; };
+		13179762198FE593002DE2C8 /* UserProfileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileResponse.h; sourceTree = "<group>"; };
+		13179763198FE593002DE2C8 /* UserProfileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileResponse.m; sourceTree = "<group>"; };
+		13179764198FE593002DE2C8 /* UserRegisterResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRegisterResponse.h; sourceTree = "<group>"; };
+		13179765198FE593002DE2C8 /* UserRegisterResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRegisterResponse.m; sourceTree = "<group>"; };
+		1317977D198FF2B3002DE2C8 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		13179796198FF435002DE2C8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		13179798198FF443002DE2C8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1317979F198FF5E3002DE2C8 /* FoomoClientAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoomoClientAPI.h; sourceTree = "<group>"; };
+		131797B41990CCFD002DE2C8 /* FoomoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoomoUtils.h; sourceTree = "<group>"; };
+		131797B51990CCFD002DE2C8 /* FoomoUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoomoUtils.m; sourceTree = "<group>"; };
+		131797C31990E246002DE2C8 /* SecureKeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecureKeyManager.h; sourceTree = "<group>"; };
+		13753EE21990EB6F00665BDC /* SecureKeyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureKeyManager.m; sourceTree = "<group>"; };
+		13753EE61992025C00665BDC /* UploadInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadInfo.h; sourceTree = "<group>"; };
+		13753EE71992025C00665BDC /* UploadInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadInfo.m; sourceTree = "<group>"; };
+		13CEFD55198F5F340085E231 /* libFoomoClientAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFoomoClientAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CEFD58198F5F340085E231 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13CEFD5C198F5F340085E231 /* FoomoClientAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoomoClientAPI-Prefix.pch"; sourceTree = "<group>"; };
+		13CEFD65198F5F340085E231 /* FoomoClientAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoomoClientAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CEFD66198F5F340085E231 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		13CEFD69198F5F340085E231 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		13CEFD70198F5F340085E231 /* FoomoClientAPITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoomoClientAPITests-Info.plist"; sourceTree = "<group>"; };
+		13CEFD72198F5F340085E231 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13CEFD74198F5F340085E231 /* FoomoClientAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoomoClientAPITests.m; sourceTree = "<group>"; };
+		13CEFD7E198F5FC20085E231 /* FoomoAPIImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoomoAPIImpl.h; sourceTree = "<group>"; };
+		13CEFD7F198F5FC20085E231 /* FoomoAPIImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoomoAPIImpl.m; sourceTree = "<group>"; };
+		13CEFD81198F60070085E231 /* FoomoAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoomoAPI.h; sourceTree = "<group>"; };
+		13CEFD86198F63310085E231 /* FoomoResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoomoResponseHandler.h; sourceTree = "<group>"; };
+		13CEFD88198F638B0085E231 /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		13CEFD89198F638B0085E231 /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		13CEFDE1198F67630085E231 /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		13CEFDE2198F67630085E231 /* Response.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
+		697DE014AA5243779AC11129 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6928EB54F09401AA2CABB0C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13CEFD52198F5F340085E231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13179799198FF443002DE2C8 /* MobileCoreServices.framework in Frameworks */,
+				13179797198FF435002DE2C8 /* SystemConfiguration.framework in Frameworks */,
+				13179791198FF3A9002DE2C8 /* libPods-AFNetworking.a in Frameworks */,
+				13179792198FF3A9002DE2C8 /* libPods-GoldenFleece.a in Frameworks */,
+				13179793198FF3A9002DE2C8 /* libPods-ISO8601DateFormatter.a in Frameworks */,
+				13179794198FF3A9002DE2C8 /* libPods-NSDate+Helper.a in Frameworks */,
+				13CEFD59198F5F340085E231 /* Foundation.framework in Frameworks */,
+				C72E9E7611C842A692A24C9F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CEFD62198F5F340085E231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CEFD67198F5F340085E231 /* XCTest.framework in Frameworks */,
+				13CEFD6A198F5F340085E231 /* UIKit.framework in Frameworks */,
+				13CEFD6D198F5F340085E231 /* libFoomoClientAPI.a in Frameworks */,
+				13CEFD68198F5F340085E231 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1317977E198FF2B3002DE2C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13179786198FF2B3002DE2C8 /* libPods.a */,
+				13179788198FF2B3002DE2C8 /* libPods-AFNetworking.a */,
+				1317978A198FF2B3002DE2C8 /* libPods-GoldenFleece.a */,
+				1317978C198FF2B3002DE2C8 /* libPods-ISO8601DateFormatter.a */,
+				1317978E198FF2B3002DE2C8 /* libPods-NSDate+Helper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		131797B31990CCE9002DE2C8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				131797B41990CCFD002DE2C8 /* FoomoUtils.h */,
+				131797B51990CCFD002DE2C8 /* FoomoUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		131797B81990D9C0002DE2C8 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				13753EE21990EB6F00665BDC /* SecureKeyManager.m */,
+				131797C31990E246002DE2C8 /* SecureKeyManager.h */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		13CEFD4C198F5F340085E231 = {
+			isa = PBXGroup;
+			children = (
+				1317977D198FF2B3002DE2C8 /* Pods.xcodeproj */,
+				13CEFD5A198F5F340085E231 /* FoomoClientAPI */,
+				13CEFD6E198F5F340085E231 /* FoomoClientAPITests */,
+				13CEFD57198F5F340085E231 /* Frameworks */,
+				13CEFD56198F5F340085E231 /* Products */,
+				C6928EB54F09401AA2CABB0C /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		13CEFD56198F5F340085E231 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13CEFD55198F5F340085E231 /* libFoomoClientAPI.a */,
+				13CEFD65198F5F340085E231 /* FoomoClientAPITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13CEFD57198F5F340085E231 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13179798198FF443002DE2C8 /* MobileCoreServices.framework */,
+				13179796198FF435002DE2C8 /* SystemConfiguration.framework */,
+				13CEFD58198F5F340085E231 /* Foundation.framework */,
+				13CEFD66198F5F340085E231 /* XCTest.framework */,
+				13CEFD69198F5F340085E231 /* UIKit.framework */,
+				697DE014AA5243779AC11129 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13CEFD5A198F5F340085E231 /* FoomoClientAPI */ = {
+			isa = PBXGroup;
+			children = (
+				131797B81990D9C0002DE2C8 /* Security */,
+				131797B31990CCE9002DE2C8 /* Utils */,
+				13CEFD85198F63310085E231 /* Handler */,
+				13CEFD87198F63310085E231 /* Response */,
+				13CEFD83198F62090085E231 /* Request */,
+				13CEFD5B198F5F340085E231 /* Supporting Files */,
+				13CEFD7E198F5FC20085E231 /* FoomoAPIImpl.h */,
+				13CEFD7F198F5FC20085E231 /* FoomoAPIImpl.m */,
+				13CEFD81198F60070085E231 /* FoomoAPI.h */,
+				1317979F198FF5E3002DE2C8 /* FoomoClientAPI.h */,
+			);
+			path = FoomoClientAPI;
+			sourceTree = "<group>";
+		};
+		13CEFD5B198F5F340085E231 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13CEFD5C198F5F340085E231 /* FoomoClientAPI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13CEFD6E198F5F340085E231 /* FoomoClientAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				13CEFD74198F5F340085E231 /* FoomoClientAPITests.m */,
+				13CEFD6F198F5F340085E231 /* Supporting Files */,
+			);
+			path = FoomoClientAPITests;
+			sourceTree = "<group>";
+		};
+		13CEFD6F198F5F340085E231 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13CEFD70198F5F340085E231 /* FoomoClientAPITests-Info.plist */,
+				13CEFD71198F5F340085E231 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13CEFD83198F62090085E231 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				13179704198FE577002DE2C8 /* AddressBookInfo.h */,
+				13179705198FE577002DE2C8 /* AddressBookInfo.m */,
+				13179706198FE577002DE2C8 /* ContactEmail.h */,
+				13179707198FE577002DE2C8 /* ContactEmail.m */,
+				13179708198FE577002DE2C8 /* ContactIM.h */,
+				13179709198FE577002DE2C8 /* ContactIM.m */,
+				1317970A198FE577002DE2C8 /* ContactInfo.h */,
+				1317970B198FE577002DE2C8 /* ContactInfo.m */,
+				1317970C198FE577002DE2C8 /* ContactName.h */,
+				1317970D198FE577002DE2C8 /* ContactName.m */,
+				1317970E198FE577002DE2C8 /* ContactNumber.h */,
+				1317970F198FE577002DE2C8 /* ContactNumber.m */,
+				13179710198FE577002DE2C8 /* ContactOrganization.h */,
+				13179711198FE577002DE2C8 /* ContactOrganization.m */,
+				13179712198FE577002DE2C8 /* ContactSocialProfile.h */,
+				13179713198FE577002DE2C8 /* ContactSocialProfile.m */,
+				13179714198FE577002DE2C8 /* ContactSyncRequest.h */,
+				13179715198FE577002DE2C8 /* ContactSyncRequest.m */,
+				13179716198FE577002DE2C8 /* DeviceInfo.h */,
+				13179717198FE577002DE2C8 /* DeviceInfo.m */,
+				13179718198FE577002DE2C8 /* FoomoContact.h */,
+				13179719198FE577002DE2C8 /* FoomoContact.m */,
+				1317971A198FE577002DE2C8 /* InviteUser.h */,
+				1317971B198FE577002DE2C8 /* InviteUser.m */,
+				1317971C198FE577002DE2C8 /* RequestWithJidList.h */,
+				1317971D198FE577002DE2C8 /* RequestWithJidList.m */,
+				1317971E198FE577002DE2C8 /* UpdateNumberRequest.h */,
+				1317971F198FE577002DE2C8 /* UpdateNumberRequest.m */,
+				13179720198FE577002DE2C8 /* UserInfoRequest.h */,
+				13179721198FE577002DE2C8 /* UserInfoRequest.m */,
+				13179722198FE577002DE2C8 /* UserLocationInformation.h */,
+				13179723198FE577002DE2C8 /* UserLocationInformation.m */,
+				13179724198FE577002DE2C8 /* UserPinInfo.h */,
+				13179725198FE577002DE2C8 /* UserPinInfo.m */,
+				13179726198FE577002DE2C8 /* UserProfileRequest.h */,
+				13179727198FE577002DE2C8 /* UserProfileRequest.m */,
+				13179728198FE577002DE2C8 /* UserRequest.h */,
+				13179729198FE577002DE2C8 /* UserRequest.m */,
+				13CEFD88198F638B0085E231 /* Request.h */,
+				13CEFD89198F638B0085E231 /* Request.m */,
+				13753EE61992025C00665BDC /* UploadInfo.h */,
+				13753EE71992025C00665BDC /* UploadInfo.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		13CEFD85198F63310085E231 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				13CEFD86198F63310085E231 /* FoomoResponseHandler.h */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		13CEFD87198F63310085E231 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				13179750198FE593002DE2C8 /* AddressBookInfoResponse.h */,
+				13179751198FE593002DE2C8 /* AddressBookInfoResponse.m */,
+				13179752198FE593002DE2C8 /* BaseResponse.h */,
+				13179753198FE593002DE2C8 /* BaseResponse.m */,
+				13179754198FE593002DE2C8 /* BlockUserResponse.h */,
+				13179755198FE593002DE2C8 /* BlockUserResponse.m */,
+				13179756198FE593002DE2C8 /* DeviceRegistrationResponse.h */,
+				13179757198FE593002DE2C8 /* DeviceRegistrationResponse.m */,
+				13179758198FE593002DE2C8 /* FileUploadResponse.h */,
+				13179759198FE593002DE2C8 /* FileUploadResponse.m */,
+				1317975A198FE593002DE2C8 /* InviteResponse.h */,
+				1317975B198FE593002DE2C8 /* InviteResponse.m */,
+				1317975C198FE593002DE2C8 /* ProfileInfo.h */,
+				1317975D198FE593002DE2C8 /* ProfileInfo.m */,
+				1317975E198FE593002DE2C8 /* TimeSyncResponse.h */,
+				1317975F198FE593002DE2C8 /* TimeSyncResponse.m */,
+				13179760198FE593002DE2C8 /* UserPinResponse.h */,
+				13179761198FE593002DE2C8 /* UserPinResponse.m */,
+				13179762198FE593002DE2C8 /* UserProfileResponse.h */,
+				13179763198FE593002DE2C8 /* UserProfileResponse.m */,
+				13179764198FE593002DE2C8 /* UserRegisterResponse.h */,
+				13179765198FE593002DE2C8 /* UserRegisterResponse.m */,
+				13CEFDE1198F67630085E231 /* Response.h */,
+				13CEFDE2198F67630085E231 /* Response.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13CEFDEE198F6C540085E231 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131797A0198FF5E3002DE2C8 /* FoomoClientAPI.h in Headers */,
+				1317973E198FE577002DE2C8 /* FoomoContact.h in Headers */,
+				1317976A198FE593002DE2C8 /* BlockUserResponse.h in Headers */,
+				1317972C198FE577002DE2C8 /* ContactEmail.h in Headers */,
+				13179774198FE593002DE2C8 /* TimeSyncResponse.h in Headers */,
+				13179776198FE593002DE2C8 /* UserPinResponse.h in Headers */,
+				13CEFDEF198F6C630085E231 /* FoomoResponseHandler.h in Headers */,
+				13CEFDF0198F6C630085E231 /* Response.h in Headers */,
+				13CEFDF1198F6C630085E231 /* Request.h in Headers */,
+				13CEFDF2198F6C630085E231 /* FoomoAPIImpl.h in Headers */,
+				13CEFDF3198F6C630085E231 /* FoomoAPI.h in Headers */,
+				13179734198FE577002DE2C8 /* ContactNumber.h in Headers */,
+				1317974C198FE577002DE2C8 /* UserProfileRequest.h in Headers */,
+				1317973C198FE577002DE2C8 /* DeviceInfo.h in Headers */,
+				13179744198FE577002DE2C8 /* UpdateNumberRequest.h in Headers */,
+				13179742198FE577002DE2C8 /* RequestWithJidList.h in Headers */,
+				1317976C198FE593002DE2C8 /* DeviceRegistrationResponse.h in Headers */,
+				1317973A198FE577002DE2C8 /* ContactSyncRequest.h in Headers */,
+				1317972A198FE577002DE2C8 /* AddressBookInfo.h in Headers */,
+				13179772198FE593002DE2C8 /* ProfileInfo.h in Headers */,
+				1317974A198FE577002DE2C8 /* UserPinInfo.h in Headers */,
+				131797B61990CCFD002DE2C8 /* FoomoUtils.h in Headers */,
+				13179778198FE593002DE2C8 /* UserProfileResponse.h in Headers */,
+				13753EE81992025C00665BDC /* UploadInfo.h in Headers */,
+				1317974E198FE577002DE2C8 /* UserRequest.h in Headers */,
+				13179748198FE577002DE2C8 /* UserLocationInformation.h in Headers */,
+				131797C41990E246002DE2C8 /* SecureKeyManager.h in Headers */,
+				1317977A198FE593002DE2C8 /* UserRegisterResponse.h in Headers */,
+				13179736198FE577002DE2C8 /* ContactOrganization.h in Headers */,
+				13179738198FE577002DE2C8 /* ContactSocialProfile.h in Headers */,
+				1317972E198FE577002DE2C8 /* ContactIM.h in Headers */,
+				1317976E198FE593002DE2C8 /* FileUploadResponse.h in Headers */,
+				13179768198FE593002DE2C8 /* BaseResponse.h in Headers */,
+				13179770198FE593002DE2C8 /* InviteResponse.h in Headers */,
+				13179740198FE577002DE2C8 /* InviteUser.h in Headers */,
+				13179766198FE593002DE2C8 /* AddressBookInfoResponse.h in Headers */,
+				13179730198FE577002DE2C8 /* ContactInfo.h in Headers */,
+				13179732198FE577002DE2C8 /* ContactName.h in Headers */,
+				13179746198FE577002DE2C8 /* UserInfoRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13CEFD54198F5F340085E231 /* FoomoClientAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CEFD78198F5F340085E231 /* Build configuration list for PBXNativeTarget "FoomoClientAPI" */;
+			buildPhases = (
+				5E03D88703134836B4D22549 /* Check Pods Manifest.lock */,
+				13CEFD51198F5F340085E231 /* Sources */,
+				13CEFD52198F5F340085E231 /* Frameworks */,
+				13CEFD53198F5F340085E231 /* CopyFiles */,
+				13CEFDEE198F6C540085E231 /* Headers */,
+				C3D51B5E09384A229B25FD18 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoomoClientAPI;
+			productName = FoomoClientAPI;
+			productReference = 13CEFD55198F5F340085E231 /* libFoomoClientAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		13CEFD64198F5F340085E231 /* FoomoClientAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CEFD7B198F5F340085E231 /* Build configuration list for PBXNativeTarget "FoomoClientAPITests" */;
+			buildPhases = (
+				13CEFD61198F5F340085E231 /* Sources */,
+				13CEFD62198F5F340085E231 /* Frameworks */,
+				13CEFD63198F5F340085E231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13CEFD6C198F5F340085E231 /* PBXTargetDependency */,
+			);
+			name = FoomoClientAPITests;
+			productName = FoomoClientAPITests;
+			productReference = 13CEFD65198F5F340085E231 /* FoomoClientAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13CEFD4D198F5F340085E231 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Wiva Inc.";
+			};
+			buildConfigurationList = 13CEFD50198F5F340085E231 /* Build configuration list for PBXProject "FoomoClientAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13CEFD4C198F5F340085E231;
+			productRefGroup = 13CEFD56198F5F340085E231 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1317977E198FF2B3002DE2C8 /* Products */;
+					ProjectRef = 1317977D198FF2B3002DE2C8 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13CEFD54198F5F340085E231 /* FoomoClientAPI */,
+				13CEFD64198F5F340085E231 /* FoomoClientAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		13179786198FF2B3002DE2C8 /* libPods.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPods.a;
+			remoteRef = 13179785198FF2B3002DE2C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		13179788198FF2B3002DE2C8 /* libPods-AFNetworking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-AFNetworking.a";
+			remoteRef = 13179787198FF2B3002DE2C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1317978A198FF2B3002DE2C8 /* libPods-GoldenFleece.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-GoldenFleece.a";
+			remoteRef = 13179789198FF2B3002DE2C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1317978C198FF2B3002DE2C8 /* libPods-ISO8601DateFormatter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-ISO8601DateFormatter.a";
+			remoteRef = 1317978B198FF2B3002DE2C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1317978E198FF2B3002DE2C8 /* libPods-NSDate+Helper.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-NSDate+Helper.a";
+			remoteRef = 1317978D198FF2B3002DE2C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13CEFD63198F5F340085E231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CEFD73198F5F340085E231 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E03D88703134836B4D22549 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3D51B5E09384A229B25FD18 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13CEFD51198F5F340085E231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13179747198FE577002DE2C8 /* UserInfoRequest.m in Sources */,
+				13179735198FE577002DE2C8 /* ContactNumber.m in Sources */,
+				1317973D198FE577002DE2C8 /* DeviceInfo.m in Sources */,
+				1317972F198FE577002DE2C8 /* ContactIM.m in Sources */,
+				13CEFDE3198F67630085E231 /* Response.m in Sources */,
+				13179749198FE577002DE2C8 /* UserLocationInformation.m in Sources */,
+				13179737198FE577002DE2C8 /* ContactOrganization.m in Sources */,
+				1317972B198FE577002DE2C8 /* AddressBookInfo.m in Sources */,
+				131797B71990CCFD002DE2C8 /* FoomoUtils.m in Sources */,
+				13179731198FE577002DE2C8 /* ContactInfo.m in Sources */,
+				13179771198FE593002DE2C8 /* InviteResponse.m in Sources */,
+				13179743198FE577002DE2C8 /* RequestWithJidList.m in Sources */,
+				13753EE91992025C00665BDC /* UploadInfo.m in Sources */,
+				13179767198FE593002DE2C8 /* AddressBookInfoResponse.m in Sources */,
+				1317974B198FE577002DE2C8 /* UserPinInfo.m in Sources */,
+				13179741198FE577002DE2C8 /* InviteUser.m in Sources */,
+				1317977B198FE593002DE2C8 /* UserRegisterResponse.m in Sources */,
+				1317976F198FE593002DE2C8 /* FileUploadResponse.m in Sources */,
+				13179779198FE593002DE2C8 /* UserProfileResponse.m in Sources */,
+				1317974F198FE577002DE2C8 /* UserRequest.m in Sources */,
+				13CEFD80198F5FC20085E231 /* FoomoAPIImpl.m in Sources */,
+				13179739198FE577002DE2C8 /* ContactSocialProfile.m in Sources */,
+				13179733198FE577002DE2C8 /* ContactName.m in Sources */,
+				1317973B198FE577002DE2C8 /* ContactSyncRequest.m in Sources */,
+				1317973F198FE577002DE2C8 /* FoomoContact.m in Sources */,
+				13179769198FE593002DE2C8 /* BaseResponse.m in Sources */,
+				13179773198FE593002DE2C8 /* ProfileInfo.m in Sources */,
+				13CEFD8A198F638B0085E231 /* Request.m in Sources */,
+				13179775198FE593002DE2C8 /* TimeSyncResponse.m in Sources */,
+				1317974D198FE577002DE2C8 /* UserProfileRequest.m in Sources */,
+				1317976B198FE593002DE2C8 /* BlockUserResponse.m in Sources */,
+				1317976D198FE593002DE2C8 /* DeviceRegistrationResponse.m in Sources */,
+				1317972D198FE577002DE2C8 /* ContactEmail.m in Sources */,
+				13753EE31990EB6F00665BDC /* SecureKeyManager.m in Sources */,
+				13179745198FE577002DE2C8 /* UpdateNumberRequest.m in Sources */,
+				13179777198FE593002DE2C8 /* UserPinResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CEFD61198F5F340085E231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CEFD75198F5F340085E231 /* FoomoClientAPITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13CEFD6C198F5F340085E231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CEFD54198F5F340085E231 /* FoomoClientAPI */;
+			targetProxy = 13CEFD6B198F5F340085E231 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13CEFD71198F5F340085E231 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CEFD72198F5F340085E231 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13CEFD76198F5F340085E231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13CEFD77198F5F340085E231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13CEFD79198F5F340085E231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6928EB54F09401AA2CABB0C /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/FoomoClientAPI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoomoClientAPI/FoomoClientAPI-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		13CEFD7A198F5F340085E231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6928EB54F09401AA2CABB0C /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/FoomoClientAPI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoomoClientAPI/FoomoClientAPI-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		13CEFD7C198F5F340085E231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoomoClientAPI/FoomoClientAPI-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FoomoClientAPITests/FoomoClientAPITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		13CEFD7D198F5F340085E231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoomoClientAPI/FoomoClientAPI-Prefix.pch";
+				INFOPLIST_FILE = "FoomoClientAPITests/FoomoClientAPITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13CEFD50198F5F340085E231 /* Build configuration list for PBXProject "FoomoClientAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CEFD76198F5F340085E231 /* Debug */,
+				13CEFD77198F5F340085E231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CEFD78198F5F340085E231 /* Build configuration list for PBXNativeTarget "FoomoClientAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CEFD79198F5F340085E231 /* Debug */,
+				13CEFD7A198F5F340085E231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CEFD7B198F5F340085E231 /* Build configuration list for PBXNativeTarget "FoomoClientAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CEFD7C198F5F340085E231 /* Debug */,
+				13CEFD7D198F5F340085E231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13CEFD4D198F5F340085E231 /* Project object */;
+}
